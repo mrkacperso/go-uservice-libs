@@ -12,6 +12,11 @@ import (
 	"time"
 )
 
+const (
+	Dev  = 0
+	Prod = 1
+)
+
 type Reader struct {
 	v          *viper.Viper
 	configPath string
@@ -31,7 +36,6 @@ func NewReader(path string) *Reader {
 		configPath: path,
 	}
 }
-
 
 // Loads config using entries slice as a reference.
 // Currently only string, int, duration and time types are supported.
