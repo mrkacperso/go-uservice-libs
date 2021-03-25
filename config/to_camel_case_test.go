@@ -12,13 +12,13 @@ func TestCamelCase1(t *testing.T) {
 		want    string
 		wantErr bool
 	}{
-		{name: "TEST_TEST",args: args{str: "TEST_TEST"},want: "TestTest",wantErr: false},
-		{name: "TEST-TEST",args: args{str: "TEST-TEST"},want: "",wantErr: true},
-		{name: "test_Test",args: args{str: "test_Test"},want: "TestTest",wantErr: false},
-		{name: "test",args: args{str: "test"},want: "Test",wantErr: false},
-		{name: "test_Test_TEST",args: args{str: "test_Test_TEST"},want: "TestTestTest",wantErr: false},
-		{name: "Test",args: args{str: "Test"},want: "Test",wantErr: false},
-		{name: "Test123",args: args{str: "Test123"},want: "Test123",wantErr: false},
+		{name: "TEST_TEST", args: args{str: "TEST_TEST"}, want: "TestTest", wantErr: false},
+		{name: "TEST-TEST", args: args{str: "TEST-TEST"}, want: "", wantErr: true},
+		{name: "test_Test", args: args{str: "test_Test"}, want: "TestTest", wantErr: false},
+		{name: "test", args: args{str: "test"}, want: "Test", wantErr: false},
+		{name: "test_Test_TEST", args: args{str: "test_Test_TEST"}, want: "TestTestTest", wantErr: false},
+		{name: "Test", args: args{str: "Test"}, want: "Test", wantErr: false},
+		{name: "Test123", args: args{str: "Test123"}, want: "Test123", wantErr: false},
 		{name: "123", args: args{str: "123"}, want: "123", wantErr: false},
 		{name: "123", args: args{str: "123"}, want: "123", wantErr: false},
 	}

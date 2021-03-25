@@ -109,7 +109,6 @@ func (r Reader) parseEntries(entries []Entry, target interface{}) error {
 	return nil
 }
 
-
 func (r Reader) setDefaults(entries []Entry) error {
 	// Iterate over config entries to set default values
 	for _, v := range entries {
