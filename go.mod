@@ -1,4 +1,4 @@
-module gitlab.com/kodeit/turbotrader-libs
+module gitlab.com/kodeit/go-uservice-libs
 
 go 1.16
 
