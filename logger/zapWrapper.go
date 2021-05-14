@@ -2,7 +2,7 @@ package logger
 
 import (
 	"fmt"
-	"gitlab.com/kodeit/turbotrader-libs/config"
+	"github.com/mrkacperso/go-uservice-libs/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"time"
