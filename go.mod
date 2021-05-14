@@ -1,4 +1,4 @@
-module gitlab.com/kodeit/go-uservice-libs
+module github.com/mrkacperso/go-uservice-libs 
 
 go 1.16
 
